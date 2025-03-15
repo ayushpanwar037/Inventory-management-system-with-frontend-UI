@@ -1,0 +1,42 @@
+CREATE TABLE items (
+    item_no INT PRIMARY KEY,
+    `Bar Code` VARCHAR(20) NOT NULL,
+    `Item Description` VARCHAR(100) NOT NULL
+);
+
+-- Inserting data into the table
+INSERT INTO items (item_no, `Bar Code`, `Item Description`) VALUES
+(10, 'IPHONE10BC', 'iPhone 10 Seriessssss'),
+(11, 'IPHONE11BC', 'iPhone 11 Series'),
+(12, 'IPHONE12BC', 'iPhone 12 Series'),
+(13, 'IPHONE13BC', 'iPhone 13 Series'),
+(14, 'IPHONE14BC', 'iPhone 14 Series'),
+(15, 'IPHONE15BC', 'iPhone 15 Series'),
+(20, 'SAMSUNGSBC', 'Samsung S Series'),
+(21, 'SAMSUNGAABC', 'Samsung A Series'),
+(30, 'PS1BC', 'PlayStation 1'),
+(31, 'PS2BC', 'PlayStation 2'),
+(32, 'PS3BC', 'PlayStation 3'),
+(33, 'PS4BC', 'PlayStation 4'),
+(34, 'PS5BC', 'PlayStation 5'),
+(40, 'ROGMON1BC', 'ROG Monitor Series 1'),
+(41, 'ROGMON2BC', 'ROG Monitor Series 2'),
+(42, 'ROGMON3BC', 'ROG Monitor Series 3'),
+(50, 'ROGLAP11BC', 'ROG Laptop Series 11'),
+(51, 'ROGLAP12BC', 'ROG Laptop Series 12'),
+(52, 'ROGLAP13BC', 'ROG Laptop Series 13'),
+(53, 'ROGLAP14BC', 'ROG Laptop Series 14'),
+(54, 'ROGLAP15BC', 'ROG Laptop Series 15'),
+(55, 'ROGLAP16BC', 'ROG Laptop Series 16'),
+(56, 'ROGLAP17BC', 'ROG Laptop Series 17'),
+(57, 'ROGLAP18BC', 'ROG Laptop Series 18'),
+(60, 'MSILAP1BC', 'MSI Laptop Series 1'),
+(61, 'MSILAP2BC', 'MSI Laptop Series 2'),
+(62, 'MSILAP3BC', 'MSI Laptop Series 3'),
+(63, 'MSILAP4BC', 'MSI Laptop Series 4'),
+(64, 'MSILAP5BC', 'MSI Laptop Series 5'),
+(70, 'ROGCPU1BC', 'ROG Pre-built CPU'),
+(71, 'MSICPU1BC', 'MSI Pre-built CPU'),
+(72, 'LENOCPU1BC', 'Lenovo Pre-built CPU'),
+(73, 'APPLECPU1BC', 'Apple Pre-built CPU'),
+(74, 'STRIXCPU1BC', 'Strix Pre-built CPU');
